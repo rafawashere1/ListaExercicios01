@@ -11,7 +11,7 @@
             Console.Write(">> Digite a altura do cilindro: ");
             double altura = Convert.ToDouble(Console.ReadLine());
 
-            double volume = 3.14 * raio * raio * altura;
+            double volume = Math.PI * Math.Pow(raio, 2) * altura;
 
             Console.WriteLine();
             Console.WriteLine($">> O volume do seu cilindro é: {volume}");

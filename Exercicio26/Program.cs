@@ -13,7 +13,7 @@
             double fatorial = 1;
             for (double i = a; i >= 1; i--)
             {
-                fatorial = fatorial * i;
+                fatorial *= i;
             }
 
             Console.WriteLine();
